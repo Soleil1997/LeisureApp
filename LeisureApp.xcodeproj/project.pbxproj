@@ -15,6 +15,8 @@
 		5E3122FA26198BCA00E0BF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3122F826198BCA00E0BF38 /* LaunchScreen.storyboard */; };
 		5E31230526198BCB00E0BF38 /* LeisureAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31230426198BCB00E0BF38 /* LeisureAppTests.swift */; };
 		5E31231026198BCB00E0BF38 /* LeisureAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31230F26198BCB00E0BF38 /* LeisureAppUITests.swift */; };
+		5E31232126198E2600E0BF38 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31232026198E2600E0BF38 /* UserInformation.swift */; };
+		5E3123262619916500E0BF38 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3123252619916500E0BF38 /* UserTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5E31230B26198BCB00E0BF38 /* LeisureAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeisureAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E31230F26198BCB00E0BF38 /* LeisureAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureAppUITests.swift; sourceTree = "<group>"; };
 		5E31231126198BCB00E0BF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E31232026198E2600E0BF38 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
+		5E3123252619916500E0BF38 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				5E3122F626198BCA00E0BF38 /* Assets.xcassets */,
 				5E3122F826198BCA00E0BF38 /* LaunchScreen.storyboard */,
 				5E3122FB26198BCA00E0BF38 /* Info.plist */,
+				5E31232026198E2600E0BF38 /* UserInformation.swift */,
+				5E3123252619916500E0BF38 /* UserTableViewCell.swift */,
 			);
 			path = LeisureApp;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E3122F226198BCA00E0BF38 /* ViewController.swift in Sources */,
+				5E31232126198E2600E0BF38 /* UserInformation.swift in Sources */,
 				5E3122EE26198BCA00E0BF38 /* AppDelegate.swift in Sources */,
 				5E3122F026198BCA00E0BF38 /* SceneDelegate.swift in Sources */,
+				5E3123262619916500E0BF38 /* UserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
